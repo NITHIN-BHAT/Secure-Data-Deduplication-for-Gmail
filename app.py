@@ -17,7 +17,7 @@ SCOPES = ["https://www.googleapis.com/auth/gmail.modify"]
 CLIENT_SECRETS_FILE = os.environ.get("CLIENT_SECRETS_FILE", "client_secrets.json")
 OAUTH2_CALLBACK = os.environ.get(
     "OAUTH2_CALLBACK",
-    "http://localhost:5000/oauth2callback"
+    "https://secure-data-deduplication-for-gmail.onrender.com/oauth2callback"
 )
 
 app = Flask(__name__)
